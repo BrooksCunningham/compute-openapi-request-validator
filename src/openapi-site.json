@@ -1,0 +1,10 @@
+{
+  "parameters": [
+    {
+      "in": "query",
+      "type": "string",
+      "name": "foo",
+      "required": true
+    }
+  ]
+}

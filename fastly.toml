@@ -1,0 +1,16 @@
+# This file describes a Fastly Compute@Edge package. To learn more visit:
+# https://developer.fastly.com/reference/fastly-toml/
+
+authors = [""]
+description = "A basic starter kit that demonstrates routing, simple synthetic responses and overriding caching rules."
+language = "javascript"
+manifest_version = 2
+name = "compute-openapi-request-validator"
+service_id = ""
+
+[local_server]
+
+  [local_server.backends]
+
+    [local_server.backends.httpbin]
+      url = "https://httpbin.org"
